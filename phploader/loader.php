@@ -366,7 +366,7 @@ class YAHOO_util_Loader
         ) {
             $jsonConfigString = file_get_contents($jsonConfigFile);
             $inf = json_decode($jsonConfigString, true);
-            $GLOBALS['yui_current'] = $inf;
+            $GLOBALS['yuiCurrent'] = $inf;
         } else {
             throw new Exception("Unable to find a suitable YUI metadata file!");
         }
