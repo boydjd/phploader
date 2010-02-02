@@ -6,7 +6,7 @@
  *  version: 1.0.0b2
  */
  
-$GLOBALS['yui_current'] = array (
+$GLOBALS['yuiCurrent'] = array (
   'base' => 'http://yui.yahooapis.com/3.0.0/build/',
   'skin' => 
   array (
